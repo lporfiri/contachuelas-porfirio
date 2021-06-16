@@ -1,8 +1,10 @@
 import React from "react";
+import CartWidget from "./CartWidget";
 
-function NavBar() {
+
+function NavBar(props) {
   return (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav mr-auto">
         <li className="nav-item active">
@@ -18,6 +20,7 @@ function NavBar() {
           <a className="nav-link" href="Accesorio">Accesorio</a>
         </li>
       </ul>
+      <CartWidget/>
     </div>
   </nav>
   )

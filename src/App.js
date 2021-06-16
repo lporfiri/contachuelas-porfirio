@@ -1,24 +1,15 @@
-import logo from './logo.svg';
 import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
 import './App.css';
+
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
+      <ItemListContainer>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Contachuelas-Porfirio
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Contachuelas-Porfirio</h1>
       </header>
     </div>
   );
