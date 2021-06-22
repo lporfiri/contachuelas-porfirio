@@ -1,11 +1,18 @@
-import React from 'react'
+import React from "react";
 
-function ItemListContainer(greeting){
-    return (
-        <div style={{width:'100%',height:'40%',background: 'blue'}}>
-            
-        </div>
-    )
+function ItemListContainer(greeting) {
+  return (
+    <div
+      style={{
+        width: "10em",
+        height: "5em",
+        background: "green",
+        border: "black",
+      }}
+    >
+      {(greeting = "Hola")}
+    </div>
+  );
 }
 
-export default ItemListContainer
+export default ItemListContainer;
